@@ -1,5 +1,10 @@
+import { Routes } from 'react-router-dom'
 import './styles/global.css'
 
 export function App() {
-  return <div className="h-screen w-screen bg-rotion-900 text-rotion-100"></div>
+  return (
+    <div className="h-screen w-screen bg-rotion-900 text-rotion-100">
+      <Routes></Routes>
+    </div>
+  )
 }
