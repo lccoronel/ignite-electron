@@ -8,8 +8,13 @@ function createWindow(): void {
     width: 900,
     height: 670,
     show: false,
+    titleBarStyle: 'hiddenInset',
     backgroundColor: '#17141f',
     autoHideMenuBar: true,
+    trafficLightPosition: {
+      x: 20,
+      y: 20,
+    },
     ...(process.platform === 'linux'
       ? {
           icon: path.join(__dirname, '../../build/icon.png'),

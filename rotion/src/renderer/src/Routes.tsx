@@ -1,8 +1,7 @@
 import { Router, Route } from 'electron-router-dom'
-
 import { Blank } from './pages/blank'
 
-export function AppRoutes() {
+export function Routes() {
   return (
     <Router
       main={
